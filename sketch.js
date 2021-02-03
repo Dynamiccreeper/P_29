@@ -33,7 +33,8 @@ function setup(){
     b7 = new Box(800, 280,70,70);
     b8 =  new Box(1100,320,70,70);
     b9 = new Box(1100,280,70,70);
-    b10 = new Box(760,100,70,70);
+    b10 = new Box(700,280,70,70);
+
 
 
     box = new Hex(200,320);
@@ -49,17 +50,26 @@ function draw(){
     //ground.display();
    // platform.display();
     box.display();
-    b3.display();
-    b4.display();
-    b5.display();
-    b6.display();
-    b7.display();
-    b8.display();
-    b9.display();
-    b10.display();
-   b2.display();
     b1.display();
-
+  //  b1.score();
+    b2.display();
+ //   b2.score();
+    b3.display();
+ //   b3.score();
+    b4.display();
+ //   b4.score();
+    b5.display();
+  //  b5.score();
+    b6.display();
+//    b6.score();
+    b7.display();
+//   b7.score();
+    b8.display();
+ //   b8.score();
+    b9.display();
+ //   b9.score();
+    b10.display();
+   // b10.score();
    
 ground.display();
 
